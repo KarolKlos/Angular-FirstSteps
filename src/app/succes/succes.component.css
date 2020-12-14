@@ -1,0 +1,10 @@
+.succes {
+  margin: 20px;
+  color: green;
+  border-style: none;
+  /* border: 1px solid darkgrey; */
+  box-shadow: 0 0 10px lime;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

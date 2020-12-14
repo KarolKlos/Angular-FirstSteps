@@ -1,0 +1,8 @@
+.warning {
+  margin: 20px;
+  color: red;
+  box-shadow: 0 0 10px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

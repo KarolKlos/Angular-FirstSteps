@@ -1,0 +1,12 @@
+.attention {
+  margin: 20px;
+  color: yellow;
+  box-shadow: 0 0 10px yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attention p {
+  color: orange;
+}

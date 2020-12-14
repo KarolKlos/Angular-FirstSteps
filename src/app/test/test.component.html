@@ -1,0 +1,15 @@
+<button
+  class="btn btn-primary"
+  (click)="onClick()"
+  >Display Details
+</button>
+<p
+  *ngIf="contentShow">
+  Test content
+</p>
+<p 
+  *ngFor="let counterItem of counterArr; let i = index"
+  [ngStyle]="{backgroundColor: i >= 5 ? 'blue' : 'none'}"
+  [ngClass]="{afterFive: i >= 5}">
+  {{ counterItem }}
+</p>
